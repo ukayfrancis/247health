@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: rgba(18, 23, 148, 0.08);
+    text-align: justify;
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0px 1px 5px;
+}
+
+.navbar>img{
+    margin-left: 5%;
+
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.navlinks>li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navlinks>li>a{
+    text-decoration: none;
+    color: #093371;
+    font-weight: bold;
+}
+
+.navlinks>li>a:hover{
+    color: #117215;
+    border-bottom: 3px solid #117215;
+}
+
+.infocontainer{
+    width: 100%;
+    background-color: rgba(18, 23, 154, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+.infobox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infocontainer img{
+    width: 30%;
+    height: 100vh;
+}
+
+.servicecontainer{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+.servicecontainer h2{
+    text-align: center;
+    padding: 5px 5px;
+    width: 90%;
+    margin-top: -5px;
+}
+
+.bar{
+    width: 5px;
+    height: 30px;
+    background-color: #093371;
+    border-radius: 10px;
+}
+
+.hold{
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    outline: none;
+    border: 1px transparent;
+}
+
+.backup{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.75em;
+}
+
+span{
+    color: #117215;
+    font-weight: bold;
+}
+
+.infobox a{
+    text-decoration: none;
+}
+
+.pan{
+    background-color: #117215;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 8px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.pan:hover{
+    background-color: #093371;
+}
+
+.orhold{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line{
+    width: 45%;
+    height: 0px;
+    border-top: 1px solid black ;
+    margin-top: 25px;
+}
+
+.infobox p{
+    margin:10px auto;
+}
+
+.san{
+    background-color: #093371;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 8px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.san:hover{
+    background-color: #117215;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    border-top: 5px solid #117215;
+    background-color: #212343;
+}
+
+.footercontainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.download img{
+    width: 80px;
+    height: 50px;
+}
+
+.download p{
+    color: #CEBDBD;
+}
+
+.download a{
+    width: 60%;
+    padding: 8px 16px;
+    background-color: #117215;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.download a:hover{
+    background-color: #093371;
+}
+
+.about{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about a{
+    color: #CEBDBD;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.about h3{
+    color: white;
+    margin-bottom: 40px;
+}
+
+#contact h3{
+    margin-bottom: 20px;
+}
+
+#contact a{
+    margin-bottom: 0px;
+}
+
+#contact a p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.trademark{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.trademark p{
+    color: #CEBDBD;
+    font-size: 0.75em;
+}
+
+

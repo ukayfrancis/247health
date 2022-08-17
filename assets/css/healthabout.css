@@ -1,0 +1,460 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: rgba(18, 23, 148, 0.08);
+    text-align: justify;
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0px 1px 5px;
+}
+
+.navbar>img{
+    margin-left: 5%;
+
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.navlinks>li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navlinks>li>a{
+    text-decoration: none;
+    color: #093371;
+    font-weight: bold;
+}
+
+.navlinks>li>a:hover{
+    color: #117215;
+    border-bottom: 3px solid #117215;
+}
+
+
+.heroimage{
+    background-image: url("../images/Rectangle\ 13c.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imageoverlay{
+    background: linear-gradient( 90deg, rgba(255, 255, 255, 0.9) ,  rgba(9, 51, 113, 0.9));
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #117215;
+    margin-bottom: 100px;
+    padding: 30px;
+    
+}
+
+h1{
+    color: #093371;
+    width: 80%;
+    font-size: 2em;
+}
+
+.herodetails{
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.herodetails p{
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.buttoncontainer>a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.buttoncontainer>a:nth-child(1){
+    background-color: white;
+    color: #093371;
+}
+
+.buttoncontainer>a:nth-child(2){
+    background-color: #093371;
+    color: white;
+}
+
+.buttoncontainer>a:nth-child(2):hover{
+    background-color: #117215;
+}
+
+.buttoncontainer>a:nth-child(1):hover{
+    background-color: #117215;
+    color: white;
+}
+
+.existbox{
+    width: 80%;
+    margin: auto;
+    padding: 10px 50px;
+    background-color: #093371;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.existbox h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.existbox p{
+    text-align: center;
+    line-height: 150%;
+    color: white; 
+}
+
+.existphoto{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.existdetails{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+.buttoncontainergreen{
+    margin-top: 50px;
+}
+
+.buttoncontainergreen>a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 46%;
+    background-color: #117215;
+}
+
+.buttoncontainergreen>a:hover{
+    background-color: #093371;
+}
+
+.services{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-image: url("../images/Rectangle\ 50.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicesoverlay{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.82);
+    display: flex;
+    flex-direction: column;
+}
+
+.servicecontainer{
+    width: 13%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.servicecontainer h2{
+    text-align: center;
+    padding: 5px 5px;
+    width: 150px;
+    margin: auto;
+    color: white;
+}
+
+.bar{
+    width: 5px;
+    height: 30px;
+    background-color: #117215;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.servicesbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.servicecard{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicecard img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.servicecard h4{
+    color: #093371;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.servicecontainery{
+    width: 23%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.servicecontainery h2{
+    text-align: center;
+    padding: 5px 5px;
+    width: 450px;
+    margin: auto;
+}
+
+.bary{
+    width: 5px;
+    height: 30px;
+    background-color: #093371;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.faqbox{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 5px gray;
+    box-shadow: -1px -1px 5px gray;
+    background-color: rgba(18, 23, 148, 0.04);
+}
+
+.faq{
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.faq h5{
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.faq p{
+    font-size: 0.75em;
+}
+
+.greenline{
+    width: 100%;
+    margin-top: 100px;
+    border-bottom: 1px solid #117215;
+}
+
+.revup{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.partnersbox{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.partnersbox img{
+    width: 10%;
+
+}
+
+.heybase{
+    width: 100%;
+    background-color: #093371;
+    padding: 50px 0px;
+    margin-top: 30px;
+}
+
+.heycontainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heycontainer img{
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.heyinfo{
+    width: 50%;
+    height: 260px;
+    padding: 20px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.heyinfo h4{
+    color: blue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.heyinfo p{
+    line-height: 150%;
+    font-size: 1.2em;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    border-top: 5px solid #117215;
+    background-color: #212343;
+}
+
+.footercontainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.download img{
+    width: 80px;
+    height: 50px;
+}
+
+.download p{
+    color: #CEBDBD;
+}
+
+.download a{
+    width: 60%;
+    padding: 8px 16px;
+    background-color: #117215;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.download a:hover{
+    background-color: #093371;
+}
+
+.about{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about a{
+    color: #CEBDBD;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.about h3{
+    color: white;
+    margin-bottom: 40px;
+}
+
+#contact h3{
+    margin-bottom: 20px;
+}
+
+#contact a{
+    margin-bottom: 0px;
+}
+
+#contact a p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.trademark{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.trademark p{
+    color: #CEBDBD;
+    font-size: 0.75em;
+}
+
